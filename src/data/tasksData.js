@@ -84,7 +84,7 @@ const tasksData = [
   },
   {
     id: "n2",
-    image: "https://images.unsplash.com/photo-1531497865144-0464ef8fb9a1?w=1400&q=80&auto=format&fit=crop",
+    image: "https://www.kajariadigital.com/blog/wp-content/uploads/2019/12/315654-P9L4NE-691-02.jpg",
     title: "Social Media Graphics Design",
     category: "UI/UX Design",
     subtasks: { total: 5, completed: 1 }, // 20%
@@ -110,7 +110,7 @@ const tasksData = [
   },
   {
     id: "n4",
-    image: "https://images.unsplash.com/photo-1523475496153-3d6cc3000e42?w=1400&q=80&auto=format&fit=crop",
+    image: "https://books.forbes.com/wp-content/uploads/2022/07/bigstock-Content-Writer-Or-Blogger-Sta-427512845.jpg",
     title: "Content Writing for Blog",
     category: "Content Writing",
     subtasks: { total: 12, completed: 4 }, // 33%
@@ -123,7 +123,7 @@ const tasksData = [
   },
   {
     id: "n5",
-    image: "https://images.unsplash.com/photo-1556157382-97eda2d62296?w=1400&q=80&auto=format&fit=crop",
+    image: "https://www.awebco.com/wp-content/themes/framework/img/SEO.png",
     title: "SEO Optimization for Website",
     category: "SEO / Marketing",
     subtasks: { total: 10, completed: 5 }, // 50%

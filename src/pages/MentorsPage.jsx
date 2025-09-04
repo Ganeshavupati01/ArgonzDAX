@@ -36,6 +36,7 @@ export default function MentorsPage() {
       <Sidebar />
       <main className="main-area">
         <Topbar
+          pageType="mentors"
           search={search}
           setSearch={setSearch}
           onCategoryClick={onCategoryClick}

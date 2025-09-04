@@ -1,0 +1,36 @@
+/* Progress Bar Styles */
+.progress-bar {
+  position: relative;
+  height: 7px;
+  background: #e0e7ff;
+  border-radius: 6px;
+  margin: 6px 0 0 0;
+  width: 100%;
+}
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #818cf8 0%, #60a5fa 100%);
+  border-radius: 6px;
+  transition: width 0.3s;
+}
+.progress-knob {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 14px;
+  height: 14px;
+  background: #fff;
+  border: 2px solid #818cf8;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(96,165,250,0.12);
+  transition: left 0.3s;
+}
+@media (max-width: 700px) {
+  .progress-bar {
+    height: 5px;
+  }
+  .progress-knob {
+    width: 10px;
+    height: 10px;
+  }
+}
